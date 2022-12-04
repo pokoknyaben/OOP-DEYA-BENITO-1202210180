@@ -16,6 +16,6 @@ public class MainApp
         handphone.informasi();
         handphone.telfon(62851550);
         handphone.kirimSMS(62851550);
-        handphone.kirimSMS(62851550, 62812817);
+        handphone.kirimSMS(62851555, 62812817);
     }
 }
