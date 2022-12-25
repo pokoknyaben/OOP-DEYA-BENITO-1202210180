@@ -1,7 +1,7 @@
 public class Waiters implements Runnable {
     private final int orderQty;
     private final int customerID;
-    static int foodPrice = 30000;
+    static int foodPrice = 40000;
 
     public Waiters(int customerID,int orderQty) {
         this.orderQty = orderQty;
@@ -12,7 +12,7 @@ public class Waiters implements Runnable {
         while (true) {
             getFood();
             try {
-                Thread.sleep(20000);
+                Thread.sleep(25000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

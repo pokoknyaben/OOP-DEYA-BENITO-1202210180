@@ -9,7 +9,7 @@ public class Restaurant implements Runnable {
         while (true) {
             makeFood();
             try {
-                Thread.sleep(8000);
+                Thread.sleep(3000);
             } catch (InterruptedException e) { 
                 e.printStackTrace();
             }
